@@ -1,0 +1,128 @@
+*{
+    font-family: Outfit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+}
+.main_card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%) !important;
+    position: absolute;
+    width: 350px;
+    height: 575px;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    padding-top: 15px;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.main_card__image{
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.main_card__header {
+    color: white;
+    margin-left: -140px;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+.main_card__header:hover{
+    color: hsl(215, 51%, 70%);
+    cursor: pointer;
+}
+.main_card__text {
+    width: 300px;
+    color: hsl(178, 100%, 50%);
+    margin-bottom: 20px;
+}
+.main_card__stats {
+    display: inline-flex;
+    flex-direction: row;
+    color: hsl(215, 51%, 70%);
+    margin-bottom: 30px;
+}
+.main_card__stats .main_card__ethereum{
+    display: inline-flex;
+    margin-right: 125px;
+    align-items: center;
+    font-weight: 600;
+}
+.main_card__stats .main_card__ethereum svg{
+    margin-right: 5px;
+}
+.main_card__stats .main_card__clock {
+    display: inline-flex;
+    align-items: center;
+}
+.main_card__stats .main_card__clock svg{
+    margin-right: 5px;
+}
+.main_card__creater {
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    margin-left: -70px;
+}
+.main_card__creater span {
+    color: white;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+.main_card__creater span:hover {
+    color: hsl(215, 51%, 70%);
+    cursor: pointer;
+}
+.main_card__creater .main_card__creater__avatar img{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.hr-line {
+    border: 1px solid hsl(215, 32%, 27%);
+    width: 86%;
+    margin-bottom: 20px;
+}
+.overlay {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 25px;
+    bottom: 0;
+    left: 23px;
+    right: 0;
+    height: 51%;
+    width: 86%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(215, 51%, 70%);
+    backdrop-filter:blur(5px);
+    border-radius: 10px;
+}
+.image:hover
+.overlay {
+    opacity: 0.65;
+    cursor: pointer;
+}
+.overlay svg{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
