@@ -8,6 +8,13 @@ body{
     display: flex;
     justify-content: center;
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 .main_card {
     display: flex;
     flex-direction: column;
