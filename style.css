@@ -89,8 +89,8 @@ body{
     cursor: pointer;
 }
 .main_card__creater .main_card__creater__avatar img{
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     border: 2px solid white;
     border-radius: 50%;
     margin-right: 15px;
@@ -98,7 +98,7 @@ body{
 .hr-line {
     border: 1px solid hsl(215, 32%, 27%);
     width: 86%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .overlay {
     display: flex;
