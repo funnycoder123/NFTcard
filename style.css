@@ -78,10 +78,11 @@ body{
     align-items: center;
     color: hsl(178, 100%, 50%);
     margin-left: -70px;
+    font-weight: 300;
 }
 .main_card__creater span {
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     transition: all 0.3s;
 }
 .main_card__creater span:hover {
