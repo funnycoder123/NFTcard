@@ -50,6 +50,8 @@ body{
     width: 300px;
     color: hsl(178, 100%, 50%);
     margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
 }
 .main_card__stats {
     display: inline-flex;
